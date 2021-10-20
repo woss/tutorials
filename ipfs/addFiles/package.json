@@ -1,0 +1,26 @@
+{
+  "name": "ipfs-addall-vs-regular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "lint": "xo --fix",
+    "start": "nodemon -w src src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ipfs-http-client": "^53.0.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^8.0.1",
+    "eslint-config-xo": "^0.39.0",
+    "ipfs-core-types": "^0.8.1",
+    "nodemon": "^2.0.14",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4",
+    "xo": "^0.45.0"
+  }
+}
